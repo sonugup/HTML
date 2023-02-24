@@ -6,6 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .music{
+        width: 400px;
+        height: 200px;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .music .bar{
+        width: 13px;
+        border-radius: 12px;
+        background: white;
+        animation: movement 1.5s ease-in-out infinite;
+    }
+    @keyframes movement {
+        0%, 100%{
+            height: 3px;
+        }
+        50% {
+            height: 90px;
+        }
+    }
+
+    .music .bar:nth-child(1){
+        background: green;
+        animation-delay: 1.4s;
+    }
+    .music .bar:nth-child(2){
+        background: rgb(135, 231, 135);
+        animation-delay: 1.2s;
+    }
+    .music .bar:nth-child(3){
+        background: green;
+        animation-delay: 1s;
+    }
+    .music .bar:nth-child(4){
+        background: rgb(135, 231, 135);
+        animation-delay: .8s;
+    }
+    .music .bar:nth-child(5){
+        background: green;
+        animation-delay: .6s;
+    }
+    .music .bar:nth-child(6){
+        background: rgb(135, 231, 135);
+        animation-delay: .4s;
+    }
+    .music .bar:nth-child(7){
+        background: green;
+        animation-delay: .2s;
+    }
+    .music .bar:nth-child(8){
+        background: rgb(135, 231, 135);
+        animation-delay: .4s;
+    }
+    .music .bar:nth-child(9){
+        background: green;
+        animation-delay: .6s;
+    }
+    .music .bar:nth-child(10){
+        background: rgb(135, 231, 135);
+        animation-delay: 1s;
+    }
+    .music .bar:nth-child(11){
+        background: green;
+        animation-delay: .8s;
+    }
+    .music .bar:nth-child(12){
+        background: rgb(135, 231, 135);
+        animation-delay: 1s;
+    }
+    </style>
 <body>
     <h1>sonu Gupta</h1>
     <div class="music">
